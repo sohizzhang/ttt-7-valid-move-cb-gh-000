@@ -14,4 +14,4 @@ def position?(board, index)
   else
     false
   end
-end 
+end
