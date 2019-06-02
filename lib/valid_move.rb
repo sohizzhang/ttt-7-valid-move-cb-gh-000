@@ -12,5 +12,5 @@ def position?(board, index)
   if value == " " || value == "" || value == nil
     false
   else
-    true 
+    true
 end
