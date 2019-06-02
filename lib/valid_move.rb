@@ -3,7 +3,7 @@ def valid_move?(board, index)
   if index == index.inbetween?(0, 8)
     true
   else
-    false || nil
+    false
   end
 end
 
