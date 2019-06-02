@@ -1,5 +1,4 @@
 def valid_move?(board, index)
-  #index = gets.to_i.chomp - 1
   if index.between?(0, 8) && position_taken?(board,index) == false
     true
   else
